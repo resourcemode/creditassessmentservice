@@ -7,8 +7,8 @@ This service is responsible for calculating credit score
 # Build docker environment
 - Prepare mvn docker dependency build ``./mvnw install dockerfile:build``
 - Build container and start ``docker-compose up --build``
-- Start container docker-compose start
-- Stop container docker-compose stop 
+- Start container ``docker-compose start``
+- Stop container ``docker-compose stop ``
 
 # Swagger Documentation
 http://localhost:8080/swagger-ui.html

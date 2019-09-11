@@ -5,7 +5,10 @@ This service is responsible for calculating credit score
 ``mvn clean install``
 
 # Build docker environment
- ``docker-compose build; docker-compose start``
+- Prepare mvn docker dependency build ``./mvnw install dockerfile:build``
+- Build container and start ``docker-compose up --build``
+- Start container docker-compose start
+- Stop container docker-compose stop 
 
 # Swagger Documentation
 http://localhost:8080/swagger-ui.html
